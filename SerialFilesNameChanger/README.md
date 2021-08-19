@@ -1,2 +1,2 @@
 # Serial Files Name Changer
-Rename episode of a serial , anime or ... base of template that you give.
+type 'python3 files_name_changer.py' at terminal or cmd and choose all episode or file.
