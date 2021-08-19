@@ -18,7 +18,7 @@ print("Enter template name instead of episod number use {}.\n"
       "you should type for example one_piece_{}_480p as you can see \n"
       "there is no extension mkv.")  # One.piece.epi%
 
-template_name = input("Enter tmeplate: ")
+template_name = input("Enter template: ")
 while template_name.count("{}") != 1:
     print("you did't use '{}' or used more than one time. Try again")
     template_name = input("Enter template: ")
@@ -34,7 +34,7 @@ while digit_number is None:
             raise BaseException()
         digit_number = x
     except Exception as ex:
-        print("input number not a posetive integer")
+        print("input number not a positive integer")
 
 regex = "\d{" + str(digit_number) + "}"
 
