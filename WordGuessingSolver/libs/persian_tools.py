@@ -1,3 +1,6 @@
+"""
+tools for making files clean, extracting persian word, remove other characters not needed.
+"""
 from typing import Optional
 
 HALF_SPACE_UTF8_CODE = b'\xe2\x80\x8c'
