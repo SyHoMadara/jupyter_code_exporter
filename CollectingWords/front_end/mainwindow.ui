@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>750</width>
-    <height>502</height>
+    <width>890</width>
+    <height>442</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,14 +27,14 @@
    <widget class="QLabel" name="label_14">
     <property name="geometry">
      <rect>
-      <x>460</x>
+      <x>570</x>
       <y>130</y>
       <width>111</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>Custom sepratetor</string>
+     <string>Custom</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -53,8 +53,8 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>290</y>
+      <x>470</x>
+      <y>180</y>
       <width>141</width>
       <height>16</height>
      </rect>
@@ -66,8 +66,8 @@
    <widget class="QLabel" name="label_13">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>364</y>
+      <x>540</x>
+      <y>254</y>
       <width>311</width>
       <height>20</height>
      </rect>
@@ -79,7 +79,7 @@
    <widget class="QPushButton" name="btnBrowsResource">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>410</x>
       <y>30</y>
       <width>93</width>
       <height>31</height>
@@ -92,20 +92,20 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>150</y>
+      <x>30</x>
+      <y>180</y>
       <width>141</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Include characters</string>
+     <string>Accept characters</string>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBoxSpliter">
     <property name="geometry">
      <rect>
-      <x>572</x>
+      <x>690</x>
       <y>100</y>
       <width>111</width>
       <height>22</height>
@@ -138,7 +138,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>572</x>
+      <x>690</x>
       <y>130</y>
       <width>111</width>
       <height>22</height>
@@ -148,7 +148,7 @@
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>540</x>
       <y>10</y>
       <width>81</width>
       <height>16</height>
@@ -163,7 +163,7 @@
      <rect>
       <x>30</x>
       <y>90</y>
-      <width>311</width>
+      <width>371</width>
       <height>31</height>
      </rect>
     </property>
@@ -173,47 +173,17 @@
      <rect>
       <x>32</x>
       <y>30</y>
-      <width>311</width>
+      <width>371</width>
       <height>31</height>
      </rect>
     </property>
    </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_3">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>30</y>
-      <width>261</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_4">
-     <item>
-      <layout class="QVBoxLayout" name="verticalLayout_3">
-       <item>
-        <widget class="QCheckBox" name="checkBoxSortWords">
-         <property name="text">
-          <string>Sort words</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="checkBoxMakeUniqWords">
-         <property name="text">
-          <string>Remove same words</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-    </layout>
-   </widget>
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>220</y>
-      <width>391</width>
+      <x>30</x>
+      <y>260</y>
+      <width>381</width>
       <height>51</height>
      </rect>
     </property>
@@ -245,7 +215,7 @@
      <item>
       <widget class="QCheckBox" name="checkBoxNonAlphabetChar">
        <property name="text">
-        <string>Non alphabet character</string>
+        <string>All</string>
        </property>
       </widget>
      </item>
@@ -254,7 +224,7 @@
    <widget class="QPushButton" name="btnBrowsResult">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>410</x>
       <y>90</y>
       <width>93</width>
       <height>31</height>
@@ -267,8 +237,8 @@
    <widget class="QLineEdit" name="lineEditReplacements">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>310</y>
+      <x>470</x>
+      <y>200</y>
       <width>331</width>
       <height>31</height>
      </rect>
@@ -283,8 +253,8 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>343</y>
+      <x>540</x>
+      <y>233</y>
       <width>311</width>
       <height>20</height>
      </rect>
@@ -296,8 +266,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>200</y>
+      <x>150</x>
+      <y>230</y>
       <width>281</width>
       <height>20</height>
      </rect>
@@ -309,8 +279,8 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>330</y>
+      <x>680</x>
+      <y>220</y>
       <width>121</width>
       <height>20</height>
      </rect>
@@ -322,8 +292,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>200</y>
+      <x>560</x>
+      <y>190</y>
       <width>121</width>
       <height>20</height>
      </rect>
@@ -335,8 +305,8 @@
    <widget class="QLineEdit" name="lineEditIncludedChars">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>170</y>
+      <x>30</x>
+      <y>200</y>
       <width>331</width>
       <height>31</height>
      </rect>
@@ -360,8 +330,8 @@
    <widget class="QPushButton" name="pushButtonCancel">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>420</y>
+      <x>650</x>
+      <y>370</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -383,26 +353,10 @@
      <string>Path to result file</string>
     </property>
    </widget>
-   <widget class="QWidget" name="widget_show_example" native="true">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>170</y>
-      <width>271</width>
-      <height>261</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-color: rgb(255, 170, 0);
-border-width: 3px;
-border-style: inset;</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>570</x>
       <y>100</y>
       <width>101</width>
       <height>16</height>
@@ -415,8 +369,8 @@ border-style: inset;</string>
    <widget class="QPushButton" name="pushButtonStart">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>420</y>
+      <x>770</x>
+      <y>370</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -425,62 +379,145 @@ border-style: inset;</string>
      <string>Start</string>
     </property>
    </widget>
+   <widget class="QLabel" name="labelWarnings">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditEncode">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>300</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>utf-8</string>
+    </property>
+   </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>180</y>
+      <x>470</x>
+      <y>280</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Encode</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>259</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QCheckBox" name="checkBoxSortWords">
+       <property name="text">
+        <string>Sort words</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBoxMakeUniqWords">
+       <property name="text">
+        <string>Remove same words</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>360</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Custom </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditCustomDetection">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>360</y>
       <width>111</width>
-      <height>16</height>
+      <height>22</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Before changes</string>
-    </property>
    </widget>
-   <widget class="QLabel" name="label_10">
+   <widget class="QComboBox" name="comboBoxDetection">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>300</y>
-      <width>91</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>After changes</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="lbl_show_result_2">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
+      <x>180</x>
       <y>330</y>
-      <width>221</width>
-      <height>81</height>
+      <width>111</width>
+      <height>22</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">font: 75 9pt &quot;MS Shell Dlg 2&quot;;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
+    <item>
+     <property name="text">
+      <string>Enter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cama</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Custom</string>
+     </property>
+    </item>
    </widget>
-   <widget class="QLabel" name="lbl_show_result">
+   <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>210</y>
-      <width>221</width>
-      <height>81</height>
+      <x>60</x>
+      <y>330</y>
+      <width>101</width>
+      <height>16</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">font: 75 9pt &quot;MS Shell Dlg 2&quot;;</string>
-    </property>
     <property name="text">
-     <string/>
+     <string>Detection with</string>
     </property>
    </widget>
   </widget>
@@ -488,6 +525,22 @@ border-style: inset;</string>
    <attribute name="title">
     <string>Adding</string>
    </attribute>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>411</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 36pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>comming soon</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
