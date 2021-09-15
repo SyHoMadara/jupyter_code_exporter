@@ -1,6 +1,5 @@
 import sys
 from PyQt5 import QtWidgets
-from collections import deque
 
 from CollectingWords.front_end.donewindow import Ui_Form
 from CollectingWords.front_end.mainwindow import Ui_TabWidget
@@ -12,8 +11,6 @@ class WorkingWindow(Ui_Form):
 
     def setupUi(self, Form):
         super().setupUi(Form)
-
-        # self.pushButtonDone.clicked.connect()
 
 
 class MainWindow(Ui_TabWidget):
