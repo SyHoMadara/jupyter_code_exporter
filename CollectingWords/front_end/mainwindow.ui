@@ -73,7 +73,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>English char example: A,a means repalce A with a</string>
+     <string>English char example: Aa means repalce A with a</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnBrowsResource">
@@ -102,7 +102,7 @@
      <string>Accept characters</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBoxSpliter">
+   <widget class="QComboBox" name="comboBoxSplitter">
     <property name="geometry">
      <rect>
       <x>690</x>
@@ -132,7 +132,7 @@
      </property>
     </item>
    </widget>
-   <widget class="QLineEdit" name="lineEditCustomSpliter">
+   <widget class="QLineEdit" name="lineEditCustomSplitter">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -143,6 +143,9 @@
       <width>111</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>Enter</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -213,7 +216,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QCheckBox" name="checkBoxNonAlphabetChar">
+      <widget class="QCheckBox" name="checkBoxAll">
        <property name="text">
         <string>All</string>
        </property>
@@ -260,7 +263,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Persina char example: آ,ا means replace آ with ا</string>
+     <string>Persina char example: آا means replace آ with ا</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -382,50 +385,37 @@
    <widget class="QLabel" name="labelWarnings">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>340</y>
-      <width>371</width>
-      <height>41</height>
+      <x>310</x>
+      <y>350</y>
+      <width>331</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 0, 0);
-font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string/>
     </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEditEncode">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>300</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
-    </property>
-    <property name="text">
-     <string>utf-8</string>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>280</y>
-      <width>55</width>
+      <y>300</y>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Encode</string>
+     <string>Encode Method</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>540</x>
@@ -476,6 +466,9 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
       <height>22</height>
      </rect>
     </property>
+    <property name="text">
+     <string>Space</string>
+    </property>
    </widget>
    <widget class="QComboBox" name="comboBoxDetection">
     <property name="geometry">
@@ -488,12 +481,12 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <item>
      <property name="text">
-      <string>Enter</string>
+      <string>Space</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Space</string>
+      <string>Enter</string>
      </property>
     </item>
     <item>
@@ -519,6 +512,21 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     <property name="text">
      <string>Detection with</string>
     </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxEncode">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>300</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>UTF - 8</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QWidget" name="adding">
